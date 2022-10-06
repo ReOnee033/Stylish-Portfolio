@@ -1,0 +1,582 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: auto;
+}
+
+.imag{
+    background-image: url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg");
+    width: 100%;
+    height: 100vh; 
+   background-size: cover;
+   box-sizing: border-box;
+}
+
+.imag .hiza{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 70%;
+
+}
+
+.imag .hiza .text{
+    text-align: center;
+    height:70px;
+    width: 50%;
+}
+
+.imag .hiza .text h1{
+    font-family: "Source Sans Pro", "sans-serif";
+    font-size: 5.5rem;
+    color: #212529;
+    font-weight: 500;
+}
+
+.imag .hiza .text h3{
+    margin-bottom: 40px;
+    font-family: "Source Sans Pro", "sans-serif";
+    font-size: 1.75rem;
+    color: #212529;
+}
+
+.imag .hiza .text .button{
+    color: #fff;
+    border: none;
+    padding: 20px 40px;
+    background-color: #1D809F;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.imag .hiza .text .button:hover{
+    background-color:#12566a;
+    transition: 1s linear;
+}
+
+
+.general{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.general .text{
+    text-align: center;
+    height: 150px;
+}
+
+.general .text h3{
+    font-size: 2rem;
+}
+
+.general .text p{
+    color: #212529;
+    opacity: 0.5;
+    font-size: 1.25rem;
+}
+
+.general .text button{
+    padding: 1.25rem 2.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #212529;
+    color: #fff;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.general .text button:hover{
+    background-color:#010204;
+    transition: 0.5s;
+
+}
+
+.blue{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height:500px;
+    background-color: #1D809F;
+}
+
+.blue .text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 90px;
+    width: 30%;
+}
+
+.blue .text h5{
+    color: #ECB807;
+    font-size: 1rem;
+}
+
+.blue .text h1{
+    color: #fff;
+    font-size: 3rem;
+    font-family: "Source Sans Pro", "sans-serif";
+}
+
+.blue .contain{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 153px;
+    
+}
+
+.blue .contain .mobile{
+    background-color: #fff;
+    margin-left: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 112px;
+    height: 112px;
+}
+
+.blue .contain .mobile h1{
+    margin-top: 60px;
+    margin-left: px;
+    color: #fff;
+    font-family: "Source Sans Pro","sans-serif";
+
+}
+
+.blue .contain .mobile p{
+    margin-left: 10px;
+    color: #fff;
+    font-size: 10px;
+}
+
+.blue .contain .mobile i{
+    color: #2291b2;
+    font-size: 42px;
+    padding-top: 35px;
+    padding-left: 40px;
+}
+
+.blue .contain .pen{
+    background-color: #fff;
+    border-radius: 50%;
+    width: 112px;
+    height: 112px;
+}
+
+.blue .contain .pen i{
+    color: #1893b9;
+    font-size: 42px;
+    padding-top: 35px;
+    padding-left: 35px;
+}
+
+.blue .contain .pen h1{
+    margin-top: 60px;
+    margin-left: px;
+    color: #fff;
+    font-family: "Source Sans Pro","sans-serif";
+
+}
+
+.blue .contain .pen p{
+    margin-left: 15px;
+    color: #fff;
+    font-size: 10px;
+}
+
+.blue .contain .like{
+    background-color: #fff;
+    border-radius: 50%;
+    width: 112px;
+    height: 112px;
+}
+
+
+.blue .contain .like i{
+    color: #1890b5;
+    font-size: 42px;
+    padding-top: 35px;
+    padding-left: 40px;
+}
+
+.blue .contain .like h1{
+    margin-top: 60px;
+    padding-left: 10px;
+    color: #fff;
+    font-family: "Source Sans Pro","sans-serif";
+}
+
+.blue .contain .like p{
+    padding-left: 30px;
+    color: #fff;
+    font-size: 10px;
+}
+
+.blue .contain .mustache{
+    background-color: #fff;
+    border-radius: 50%;
+    width: 112px;
+    height: 112px;
+}
+
+.blue .contain .mustache i{
+    color: #2291b2;
+    font-size: 42px;
+    padding-top: 35px;
+    padding-left: 35px;
+}
+
+.blue .contain .mustache h1{
+    margin-top: 60px;
+    padding-left: 10px;
+    color: #fff;
+    font-family: "Source Sans Pro","sans-serif";
+
+}
+.section5{
+
+    align-items: center;
+    height: 130vh;
+    padding: 120px;
+}
+
+.section5 .text{
+    height: 100px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.section5 .text h5{
+    font-size: 16px;
+    color: #ECB807;
+    font-family: "Source Sans Pro", "sans-serif";
+}
+
+.section5 .text h1{
+    color: #212529;
+    font-size: 3rem;
+    font-family: "Source Sans Pro","sans-serif";
+}
+.section5 .mainbox{
+    display: flex;
+    flex-direction: row;
+    height: 816px;
+    width: 1224px;
+    margin-left: 30px;
+}
+
+.section5 .mainbox .bigbox{
+    height: 816px;
+    width: 612px;
+}
+
+.section5 .mainbox .bigbox .first{
+    display: flex;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-1.jpg);
+    height: 408px;
+    width:612px;
+}
+
+.section5 .mainbox .bigbox .first:hover{
+    transition: 0.5s;
+  transform: scale(0.7);
+}
+
+
+
+.section5 .mainbox .bigbox .first .text2 {
+    padding-top: 320px;
+    padding-left: 80px;
+}
+
+.section5 .mainbox .bigbox .first .text2 h2{
+    color: #fff;
+    font-size: 1rem;
+    font-family: "Source Sans Pro", "sans-serif";
+}
+
+.section5 .mainbox .bigbox .first .text2 p{
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.section5 .mainbox .bigbox .double{
+        background: rgba(0, 0, 0, 0.7);
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-3.jpg);
+    height: 408px;
+    width:612px; 
+}
+
+.section5 .mainbox .bigbox .double:hover{
+    transition: 0.5s;
+  transform: scale(0.7);
+}
+
+.section5 .mainbox .bigbox .double .text2 {
+    padding-top: 320px;
+    padding-left: 80px;
+}
+
+.section5 .mainbox .bigbox .double .text2 h2{
+    color: #fff;
+    font-size: 1rem;
+    font-family: "Source Sans Pro", "sans-serif";
+}
+
+.section5 .mainbox .bigbox .double .text2 p{
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.section5 .bigbox1 {
+    display: flex;
+    flex-direction: column;
+    height: 816px;
+    width: 612px;
+}
+.section5 .bigbox1 .third{
+    background: rgba(0, 0, 0, 0.4);
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-2.jpg);
+    height: 408px;
+    width:612px; 
+}
+.section5 .mainbox .bigbox1 .third:hover{
+    transition: 0.5s;
+  transform: scale(0.7);
+}
+
+.section5 .mainbox .bigbox1 .third .text2 {
+    padding-top: 320px;
+    padding-left: 80px;
+}
+
+.section5 .mainbox .bigbox1 .third .text2 h2{
+    color: #fff;
+    font-size: 1rem;
+    font-family: "Source Sans Pro", "sans-serif";
+}
+
+.section5 .mainbox .bigbox1 .third .text2 p{
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.section5 .mainbox .bigbox1 .double .text2 {
+    padding-top: 320px;
+    padding-left: 80px;
+}
+
+.section5 .mainbox .bigbox1 .double .text2 h2{
+    color: #fff;
+    font-size: 1rem;
+    font-family: "Source Sans Pro", "sans-serif";
+}
+
+.section5 .mainbox .bigbox1 .double .text2 p{
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.section5 .bigbox1 .fourth{
+    background-blend-mode: darken;
+    background: rgba(0, 0, 0, 0.4);
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-4.jpg);
+    height: 408px;
+    width:612px; 
+}
+
+.section5 .mainbox .bigbox1 .fourth:hover{
+    transition: 0.5s;
+  transform: scale(0.7);
+}
+
+.section5 .mainbox .bigbox1 .fourth .text2 {
+    padding-top: 320px;
+    padding-left: 80px;
+}
+
+.section5 .mainbox .bigbox1 .fourth .text2 h2{
+    color: #fff;
+    font-size: 1rem;
+    font-family: "Source Sans Pro", "sans-serif";
+}
+
+.section5 .mainbox .bigbox1 .fourth .text2 p{
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.four{
+    height: 100vh;
+    background-image: url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg");
+    background-size: auto;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.four .text{
+    text-align: center;
+    width: 450px;
+    flex-direction: column;
+}
+.four .text h1{
+    color: #212529;
+    font-size: 3.5rem;
+    font-family: "Source Sans Pro", "sans-serif";
+}
+.four .text button{
+    padding: 20px 40px;
+    border-radius: 0.25rem;
+    border: none;
+    background-color: #1D809F;
+    color: #fff;
+    cursor: pointer;
+}
+
+.four .text button:hover{
+    background-color:#08323e ;
+    transition: 0.5s linear;
+
+}
+
+
+.buttons{
+    justify-content: center;
+    background-color: #1D809F;
+    height: 20vh;
+    padding: 100px 0;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.buttons .text{
+    text-align: center;
+    height: 50px;
+}
+.buttons .text h1{
+    font-size: 30px;
+}
+
+
+.buttons .btn{
+    margin-left: 600px;
+    height: 200px;
+    width: 500px;
+    align-items: center;
+
+}
+
+.buttons .btn button{
+    font-size: 15px;
+    border: none;
+    padding: 25px 40px;
+    border-radius: 0.25rem;
+    background-color: #212529;
+    color: #fff;
+    cursor: pointer;
+}
+
+.twitter{
+    height: 100vh;
+}
+
+.twitter .map{
+    height: 70vh;
+    width: 100%;
+}
+.twitter .map iframe{
+    height: 100%;
+    width: 100%;
+}
+
+.twitter .general{
+   display: flex;
+   flex-direction: column;
+    width: 100%;
+    height: 30vh;
+}
+
+.twitter .general .last{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 100px;
+}
+
+.twitter .general .last .face{
+    margin-right:10px;
+    width: 4rem;
+    height: 4rem;
+    background-color: #1D809F;
+    border-radius: 50%;
+} 
+
+.twitter .general .last .face i{
+    color: #fff;
+    width: 24px;
+    height: 24.8px;
+    padding-top: 18px;
+    padding-left: 18px;
+    font-size: 30px;
+} 
+
+.twitter .general .last .twit{
+    margin-right: 10px;
+    width: 4rem;
+    height: 4rem;
+    background-color: #1D809F;
+    border-radius: 50%;
+} 
+
+.twitter .general .last .twit i{
+    color: #fff;
+    width: 24px;
+    height: 24.8px;
+    padding-top: 18px;
+    padding-left: 18px;
+    font-size: 30px;
+} 
+
+.twitter .general .last .cat{
+    width: 4rem;
+    height: 4rem;
+    background-color: #1D809F;
+    border-radius: 50%;
+} 
+
+.twitter .general .last .cat i{
+    color: #fff;
+    width: 24px;
+    height: 24.8px;
+    padding-top: 18px;
+    padding-left: 18px;
+    font-size: 30px;
+} 
+.twitter .general .text{
+    width: 400px;
+    height: 30px;
+}
+.twitter .general .text p{
+    font-size: 14px;
+    color: #6c757d;
+}
